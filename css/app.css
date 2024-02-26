@@ -1,0 +1,126 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+ul,
+ol,
+menu {
+	list-style: none;
+}
+
+.page-header {
+	background-color: white;
+	padding: 20px;
+}
+
+.logo {
+	width: 150px;
+}
+
+body {
+	background-color: #f1f1f1;
+}
+
+.content {
+	padding: 60px 0;
+}
+
+.container {
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+.card {
+	background-color: white;
+	padding: 25px 50px;
+	border-radius: 10px;
+}
+
+.box-header {
+	padding-bottom: 10px;
+	border-bottom: 3px solid #f8f8fe; 
+	margin-bottom: 20px;
+}
+
+.box-header > * {
+	vertical-align: middle;
+}
+
+.box-header span{
+	display: inline-block;
+	padding: 0 10px;
+	font-size: 12px;
+	border-radius: 10%;
+	text-align: center;
+	line-height: 25px;
+	margin-right: 5px;
+} 
+
+.badge-add-task {	
+	background-color: cornflowerblue;
+		
+}
+
+.badge-add-section {
+    border: 1px solid #c0c0c0 ;
+}
+
+.item-size {
+	font-size:18px;
+	font-weight:900;
+}
+
+.list-item {
+	margin-top: 18px;
+}
+
+.sublist-item {
+	margin-top: 5px; 
+}  
+
+.sublist-item div {
+	display: inline-block;
+	font-size: 15px; 
+}
+
+.sublist-item span{
+	vertical-align: baseline;
+	display: inline-block;
+	border-radius: 50%;
+	color: white;
+	font-size: 10px;
+	text-align: center;
+	line-height: 18px;
+} 
+
+.badge-editorial{
+	background-color: cornflowerblue;
+	width:50px;
+}
+
+.badge-goals{
+	background-color: #7b68ee;
+	width:55px;  
+}
+
+.badge-recruiting {
+	background-color: #66cdaa;
+	width:60px; 
+}
+
+.badge-mobile {
+	background-color: #ffa500;
+	width:45px;
+}
+
+.badge-website {
+	background-color: 	#ff00ee;
+	width:45px;
+}
+
+.badge-sales {
+	background-color: 	#9acd32;
+	width:35px;
+}
